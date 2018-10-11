@@ -18,6 +18,37 @@ namespace Vidly.Controllers
             _context = new ApplicationDbContext();
         }
 
+        public ActionResult New()
+        {
+            var genre = _context.Genres.ToList();
+            var viewModel = new NewMovieViewModel
+            {
+                Genres = genre
+            };
+            return View("MovieForm", viewModel);
+
+        }
+
+        public ActionResult Save(Movie movie)
+        {
+            if (movie.Id == 0)
+                _context.Movies.Add(movie);
+            else
+            {
+                var movieInDb = _context.Movies.Single(m => m.Id == movie.Id);
+
+                movieInDb.Name = movie.Name;
+                movieInDb.ReleaseDate = movie.ReleaseDate;
+                movieInDb.GenreId = movie.GenreId;
+                movieInDb.NumberInStock = movie.NumberInStock;
+
+            }
+
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Movies");
+        }
+
         protected override void Dispose(bool disposing)
         {
             _context.Dispose();

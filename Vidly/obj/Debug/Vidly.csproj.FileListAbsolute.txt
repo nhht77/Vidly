@@ -110,4 +110,4 @@ C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.CreatingUserBIrthDateExample.
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.updateBirthOfDate.resources
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.DELETEmigration.resources
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AttepmtCreateGenreTable2.resources
-C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.InsertDataToMovies.resources
+C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.MakinColumnMemberShipTB.resources
