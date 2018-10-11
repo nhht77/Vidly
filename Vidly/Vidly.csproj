@@ -252,6 +252,10 @@
     <Compile Include="Migrations\201810101442596_MakinColumnMemberShipTB.Designer.cs">
       <DependentUpon>201810101442596_MakinColumnMemberShipTB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810111852330_UpdateDbMovie.cs" />
+    <Compile Include="Migrations\201810111852330_UpdateDbMovie.Designer.cs">
+      <DependentUpon>201810111852330_UpdateDbMovie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -263,7 +267,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\NewCustomerViewModel.cs" />
-    <Compile Include="ViewModels\NewMovieViewModel.cs" />
+    <Compile Include="ViewModels\MovieFormViewModel.cs" />
     <Compile Include="ViewModels\RandomMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -431,6 +435,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810101442596_MakinColumnMemberShipTB.resx">
       <DependentUpon>201810101442596_MakinColumnMemberShipTB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810111852330_UpdateDbMovie.resx">
+      <DependentUpon>201810111852330_UpdateDbMovie.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -8,7 +8,7 @@
 <h2>Movies</h2>
 
 <div class="row my-3 ml-1">
-    @Html.ActionLink("Movies", "Save", "Movies", new { @class = "btn btn-outline-success" })
+    @Html.ActionLink("New Movie", "New", "Movies", null, new { @class = "btn btn-outline-success" })
 </div>
 
 <div class="row">
@@ -23,7 +23,7 @@
             @foreach (var movie in Model)
             {
                 <tr>
-                    <td>@Html.ActionLink(movie.Name, "Details", "Movies", new { id = movie.Id }, null)</td>
+                    <td>@Html.ActionLink(movie.Name, "Edit", "Movies", new { id = movie.Id }, null)</td>
                     <td>@movie.Genre.Name</td>
                 </tr>
             }
