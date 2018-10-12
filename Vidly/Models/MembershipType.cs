@@ -15,5 +15,8 @@ namespace Vidly.Models
         public byte DurationInMonths { get; set; }
         [StringLength(255)]
         public String MemberShipType { get; set; }
+
+        public static readonly byte Unknown = 0;
+        public static readonly byte PayAsYouGo = 1;
     }
 }
