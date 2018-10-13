@@ -112,3 +112,11 @@ C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.DELETEmigration.resources
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AttepmtCreateGenreTable2.resources
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.MakinColumnMemberShipTB.resources
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateDbMovie.resources
+C:\Projects\Vidly\Vidly\bin\System.Net.Http.Formatting.dll
+C:\Projects\Vidly\Vidly\bin\System.Web.Http.dll
+C:\Projects\Vidly\Vidly\bin\System.Web.Http.WebHost.dll
+C:\Projects\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
+C:\Projects\Vidly\Vidly\bin\System.Web.Http.xml
+C:\Projects\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
+C:\Projects\Vidly\Vidly\bin\AutoMapper.dll
+C:\Projects\Vidly\Vidly\bin\AutoMapper.xml
